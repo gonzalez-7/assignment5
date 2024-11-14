@@ -2,7 +2,7 @@
 // containing all the numbers from start up to (and including) end.
 
 function range(start, end) {
-    let result = [];
+    let result = []; // Creates an empty array to store the numbers
     for (let i = start; i <= end; i++) {
         result.push(i);
     }
